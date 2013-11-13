@@ -63,7 +63,6 @@ public class CassandraTest{
         //Shutting down everything in an orderly fashion
         cluster.shutdown();
         cass.stop();
-        cass.deactivate();
     }
 
     @Test
